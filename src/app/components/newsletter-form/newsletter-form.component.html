@@ -1,0 +1,29 @@
+<section class="form-section">
+    <div class="text">
+        <h3>
+            Simplify your accounting with smart solutions
+        </h3>
+              <p>
+            We deliver accounting services to help your business grow. Get support with finances, tax, and strategy—backed by accurate reports and scalable processes.
+        </p>
+        <br>
+        <p class="newsletter-cta">
+            Subscribe to our newsletter to receive the latest news and insights on accounting solutions.
+        </p>
+        <br>
+    </div>
+    <form [formGroup]="newsletterForm">
+        <label for="name">Name</label>
+        <input id="name" formControlName="name"/>
+        <label for="email">Email</label>
+        <input id="email" formControlName="email"/>
+        <btn-primary 
+            btn-text="Join Now" 
+            variant="secondary"
+            (submit)="onSubmit()"
+            [disabled]="!newsletterForm.valid"
+            [loading]="loading()"
+        >
+        </btn-primary>
+    </form>
+</section>

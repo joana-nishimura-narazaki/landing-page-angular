@@ -1,0 +1,52 @@
+@import "../../../color-variables.scss";
+
+.benefit-card {
+    align-items: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center ;
+    
+
+    h5 {
+       font-size: 24px;
+       font-weight: 600;
+       margin: 0;
+       color: $primary-text;
+       margin-top: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        color: $secondary-text;
+        margin-bottom: 20px;
+    }
+     img {
+        width: 450px;
+        height: auto;
+        }
+}
+
+@media (min-width: 768px) {
+    .benefit-card {
+
+        h5 {
+            font-size: 28px;
+            justify-content: left;
+             align-self: flex-start; 
+             padding: 0 30px;
+
+        }
+
+        p {
+            font-size: 16px;
+            padding: 0 30px;
+            margin-bottom: 60px;    
+        }
+
+        img {
+        width: 500px;
+        height: auto;
+        }
+    }
+}
