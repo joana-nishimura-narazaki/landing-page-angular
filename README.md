@@ -24,7 +24,7 @@ Este projeto é uma landing page responsiva desenvolvida com **Angular 17**, a v
 ## 📦 Clonando o Projeto
 
 ```bash
-git clone https://github.com/seu-usuario/landing-page-angular.git
+git clone https://github.com/joana-nishimura-narazaki/landing-page-angular.git
 cd landing-page-angular
 ```
 
@@ -78,7 +78,3 @@ src/
 └── index.html
 ```
 
-## 👨‍💻 Desenvolvido por
-
-Joana Nishimura Narazaki
-[LinkedIn](https://linkedin.com/in/seu-perfil) | [Portfólio](https://seusite.dev)
