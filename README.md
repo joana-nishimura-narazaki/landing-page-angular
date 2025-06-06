@@ -1,27 +1,84 @@
-# LandingPageAngular
+# 🚀 Landing Page com Angular 17 + Backend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+Este projeto é uma landing page responsiva desenvolvida com **Angular 17**, a versão mais recente do framework mantido pela Google. A aplicação foi construída com foco em **dispositivos desktop**, inclui **integração com um backend** para envio de dados e finaliza com o **deploy da aplicação**.
 
-## Development server
+![Mockup do Projeto](./src/assets/landing-page-angular.jpg)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🧰 Tecnologias Utilizadas
 
-## Code scaffolding
+* [Angular 17](https://angular.io/)
+* TypeScript
+* HTML5 & SCSS
+* Backend (Node.js / AWS Lambda / outro)
+* Git & GitHub
+* [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), ou outra plataforma de deploy
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🎯 Funcionalidades
 
-## Build
+* Layout moderno e responsivo (focado em desktop)
+* Formulário de newsletter funcional
+* Integração com backend para envio de dados via HTTP POST
+* Validação de campos e mensagens de feedback
+* Deploy automatizado
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📦 Clonando o Projeto
 
-## Running unit tests
+```bash
+git clone https://github.com/seu-usuario/landing-page-angular.git
+cd landing-page-angular
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Iniciando
 
-## Running end-to-end tests
+Agora você só precisa instalar as dependências e rodar a aplicação:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+npm install
+npm start
+```
 
-## Further help
+Acesse `http://localhost:4200` no navegador para visualizar o projeto.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🌐 Integração com Backend
+
+A aplicação se conecta a um endpoint HTTP para envio de formulários. O backend pode ser hospedado com:
+
+* AWS Lambda (com suporte a CORS)
+* Node.js/Express
+* Firebase Functions
+
+> O endpoint pode ser configurado dentro do serviço Angular em `src/app/services/newsletter.service.ts`.
+
+## 🚀 Deploy
+
+A aplicação foi implantada usando:
+
+* **[Vercel](https://vercel.com/)** (recomendado)
+* **Netlify**
+* Ou qualquer serviço de hospedagem de aplicações Angular
+
+Para realizar o build:
+
+```bash
+ng build --configuration production
+```
+
+E envie o conteúdo da pasta `/dist` para o serviço de hospedagem.
+
+## 📁 Estrutura de Pastas
+
+```
+src/
+├── app/
+│   ├── components/
+│   ├── services/
+│   └── app.module.ts
+├── assets/
+├── environments/
+└── index.html
+```
+
+## 👨‍💻 Desenvolvido por
+
+Joana Nishimura Narazaki
+[LinkedIn](https://linkedin.com/in/seu-perfil) | [Portfólio](https://seusite.dev)
