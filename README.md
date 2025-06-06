@@ -2,7 +2,7 @@
 
 Este projeto é uma landing page responsiva desenvolvida com **Angular 17**, a versão mais recente do framework mantido pela Google. A aplicação foi construída com foco em **dispositivos desktop**, inclui **integração com um backend** para envio de dados e finaliza com o **deploy da aplicação**.
 
-![Mockup do Projeto](./src/assets/landing-page-angular.jpg)
+![Mockup do Projeto](./src/assets/landing-page-angular-2.jpg)
 
 ## 🧰 Tecnologias Utilizadas
 
